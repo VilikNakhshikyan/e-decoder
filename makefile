@@ -1,6 +1,6 @@
 #encoder
 run : main
-	echo "ok"
+	@LD_LIBRARY_PATH=`pwd`/lib/encoder:`pwd`/lib/decoder ./bin/main.exe
 
 obj/encoder:
 	mkdir -p obj/encoder/
