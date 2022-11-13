@@ -1,4 +1,4 @@
-//#include "encoder/encoder.h"
+#include "encoder/encoder.h"
 #include <string>
 std::string encoder(std::string message, int count)
 {
